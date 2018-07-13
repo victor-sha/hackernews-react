@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App has a valid snapshot 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="interactions"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value="react"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <div
+      className="table"
+    />
+    <div
+      className="interactions"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+      >
+        More
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button has a valid snapshot 1`] = `
+<button
+  className=""
+  onClick={undefined}
+>
+  Button
+</button>
+`;
+
+exports[`Search has a valid snapshot 1`] = `
+<form
+  onSubmit={undefined}
+>
+  <input
+    onChange={undefined}
+    type="text"
+    value={undefined}
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;
+
+exports[`Table has a valid snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-row"
+  >
+    <span
+      className="tooltip"
+      style={
+        Object {
+          "width": "60%",
+        }
+      }
+    >
+      <span
+        className="tooltiptext"
+      >
+        <img
+          alt=""
+          src={undefined}
+        />
+      </span>
+      <a
+        href={undefined}
+      >
+        1
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+      >
+        Dismiss
+      </button>
+    </span>
+  </div>
+  <div
+    className="table-row"
+  >
+    <span
+      className="tooltip"
+      style={
+        Object {
+          "width": "60%",
+        }
+      }
+    >
+      <span
+        className="tooltiptext"
+      >
+        <img
+          alt=""
+          src={undefined}
+        />
+      </span>
+      <a
+        href={undefined}
+      >
+        2
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      2
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+      >
+        Dismiss
+      </button>
+    </span>
+  </div>
+</div>
+`;
